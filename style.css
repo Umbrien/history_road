@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #6A6161;
+	height: 3000px;
+}
+
+.main {
+	width: 1536px;	/* ~ ~ width = column amount * column width ~ ~ */ 
+	background-color: green;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+
+.column {
+	width: 512px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.column-left {
+	background-color: pink;
+}
+
+.column-center {
+	background-color: brown;
+	padding: 0;
+}
+
+.column-right {
+	background-color: #1beba3;
+}
+
+
+.road {
+	width: 512px;  /* .column width */
+	height: 384px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #8E8E8E;
+}
+
+
+
+.road-x {
+	background-image: url(textures/road_x.png);
+}
+
+.road-horizon {
+	background-image: url(textures/road_horizon.png);
+}
+
+.road-up {
+	background-image: url(textures/road_up.png);
+}
+
+.road_up_right {
+	background-image: url(textures/road_up_right.png);
+}
+
+.road_up_left {
+	background-image: url(textures/road_up_left.png);
+}
