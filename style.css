@@ -35,11 +35,25 @@ body {
 }
 
 
+/* lines */
+
+.line {
+	width: 1536px; /* width = block's amount * block width*/
+	height: 384px; /* .road width */
+	background-color: #B4D826;
+}
+
+
+
+/* road */
+
+
 .road {
+	display: inline-block;
 	width: 512px;  /* .column width */
 	height: 384px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
+	vertical-align: top;
 	background-color: #8E8E8E;
 }
 
