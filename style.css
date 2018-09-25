@@ -1,6 +1,9 @@
-body {
+* {
 	margin: 0;
 	padding: 0;
+}
+
+body {
 	background-color: #6A6161;
 	height: 3000px;
 }
@@ -14,16 +17,11 @@ body {
 }
 
 
+/* columns ~ not supporting ~ */
+
 .column {
 	width: 512px;
 	display: inline-block;
-	margin: 0;
-	padding: 0;
-}
-
-.column-center {
-	background-color: brown;
-	padding: 0;
 }
 
 
@@ -44,7 +42,6 @@ body {
 	display: inline-block;
 	width: 512px;  /* .column width */
 	height: 384px;
-	margin: 0 auto;
 	vertical-align: top;
 	background-color: #8E8E8E;
 }
@@ -69,4 +66,37 @@ body {
 
 .road-up-left {
 	background-image: url(textures/road_up_left.png);
+}
+
+
+
+
+
+/* internal block`s */
+
+.main-obj {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.big-date {
+	/*background-color: rgba(0,255,0,.3);*/
+	height: 70%;
+	font-size: 80px;
+}
+
+.big-date p {
+	padding-top: 29%;
+}
+
+
+.sign-txt {
+	/*background-color: rgba(0,0,255,.1);*/
+	height: 30%;
+}
+
+.sign-txt p {
+	font-size: 20px;
+	color: #EFEFEF;
 }
