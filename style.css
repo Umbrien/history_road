@@ -81,7 +81,6 @@ body {
 }
 
 .big-date {
-	/*background-color: rgba(0,255,0,.3);*/
 	height: 70%;
 	font-size: 80px;
 }
@@ -89,6 +88,16 @@ body {
 .big-date p {
 	padding-top: 29%;
 }
+
+.md-date {
+	height: 70%;
+	font-size: 40px;
+}
+
+.md-date p {
+	padding-top: 32%;
+}
+
 
 
 .sign-txt {
@@ -99,4 +108,12 @@ body {
 .sign-txt p {
 	font-size: 20px;
 	color: #EFEFEF;
+}
+
+
+
+
+
+.img-big {
+	padding-top: 15%;
 }
