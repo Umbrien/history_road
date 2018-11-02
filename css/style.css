@@ -49,23 +49,23 @@ body {
 
 
 .road-x {
-	background-image: url(textures/road_x.png);
+	background-image: url(/road_x.png);
 }
 
 .road-horizon {
-	background-image: url(textures/road_horizon.png);
+	background-image: url(../img/road_horizon.png);
 }
 
 .road-up {
-	background-image: url(textures/road_up.png);
+	background-image: url(../img/road_up.png);
 }
 
 .road-up-right {
-	background-image: url(textures/road_up_right.png);
+	background-image: url(../img/road_up_right.png);
 }
 
 .road-up-left {
-	background-image: url(textures/road_up_left.png);
+	background-image: url(../img/road_up_left.png);
 }
 
 

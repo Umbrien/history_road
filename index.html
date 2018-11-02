@@ -4,17 +4,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>History road</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fullscreenNavigation.css">
 </head>
 <body>
 	<div class="main">
 		<div class="row">
-			<div class="road">dry ыва длуеуке qr</div><!-- 
-			 --><div class="road road-up-right">jgg</div><!--  
+			<div class="road"></div><!-- 
+			 --><div class="road road-up-right"></div><!--  
 			 --><div class="road road-horizon">
 			 	<div class="main-obj">
 					<div class="img-big">
-						<img src="textures/img-big.png">
+						<img src="img/img-big.png">
 					</div>
 					<div class="sign-txt"><p>Steve Jobs was borned</p></div>
 				</div>
@@ -25,7 +26,7 @@
 			<div class="road road-horizon">
 				<div class="main-obj">
 					<div class="img-big">
-						<img src="textures/img-big.png">
+						<img src="img/img-big.png">
 					</div>
 					<div class="sign-txt"><p>Steve Jobs was borned</p></div>
 				</div>
@@ -36,7 +37,7 @@
 			 		<div class="sign-txt"><p>Steve Jobs was borned</p></div>
 			 	</div>
 			 </div><!-- 
-			 --><div class="road road-horizon">text</div>
+			 --><div class="road road-horizon"></div>
 		</div><!-- 
 
 		 --><div class="row">
@@ -48,12 +49,11 @@
 			</div><!-- 
 			 --><div class="road road-up-left">
 			 	<div class="main-obj">
-			 		<div class="md-date"><p>Грудень 1240 р.
-</p></div>
+			 		<div class="md-date"><p>Грудень 1240 р.</p></div>
 			 		<div class="sign-txt"><p>Спустошення монголами земель Київського та Галицько-Волинського князівств</p></div>
 			 	</div>
 			 </div><!-- 
-			 --><div class="road">text</div>
+			 --><div class="road"></div>
 		</div>
 
 		<div class="row">
@@ -64,10 +64,30 @@
 			 		<div class="sign-txt"><p>Спустошення монголами Переяславської й Чернігівської земель</p></div>
 			 	</div>
 			 </div><!-- 
-			 --><div class="road">234</div>
+			 --><div class="road"></div>
 		</div>
-
-
 	</div>
+
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+		  <a href="#">About</a>
+		  <a href="#">Services</a>
+		  <a href="#">Clients</a>
+		  <a href="#">Contact</a>
+		</div>
+	  </div>
+
+	  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+	  
+	  <script>
+	  function openNav() {
+		document.getElementById("myNav").style.display = "block";
+	  }
+	  
+	  function closeNav() {
+		document.getElementById("myNav").style.display = "none";
+	  }
+	  </script>
 </body>
 </html>
